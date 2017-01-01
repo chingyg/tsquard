@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { JulietsaintclairPdfComponent } from './julietsaintclair-pdf/julietsaintclair-pdf.component';
 
 @Component({
   selector: 'ts-root',
