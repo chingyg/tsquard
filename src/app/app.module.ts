@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { PostsComponent } from './posts/posts.component';
+import { PostFormComponent } from './posts/post-form/post-form.component';
+import { PostListComponent } from './posts/post-list/post-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PostsComponent,
+    PostFormComponent,
+    PostListComponent
   ],
   imports: [
     BrowserModule,
