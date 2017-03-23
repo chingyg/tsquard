@@ -7,18 +7,22 @@ import { AppComponent } from './app.component';
 import { PostsComponent } from './posts/posts.component';
 import { PostFormComponent } from './posts/post-form/post-form.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
+import { routing } from './app.routing';
+import { JulietsaintclairPdfComponent } from './julietsaintclair-pdf/julietsaintclair-pdf.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PostsComponent,
     PostFormComponent,
-    PostListComponent
+    PostListComponent,
+    JulietsaintclairPdfComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

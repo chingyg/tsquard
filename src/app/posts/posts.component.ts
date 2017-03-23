@@ -3,6 +3,9 @@ import { PostListComponent } from './post-list/post-list.component';
 import { PostFormComponent } from './post-form/post-form.component';
 import { PostService } from './shared';
 
+import { Router, ActivatedRoute } from '@angular/router';
+import { Subscription } from 'rxjs/Rx';
+
 @Component({
   selector: 'ts-posts',
   templateUrl: './posts.component.html',
