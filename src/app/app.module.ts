@@ -9,6 +9,7 @@ import { PostFormComponent } from './posts/post-form/post-form.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
 import { routing } from './app.routing';
 import { JulietsaintclairPdfComponent } from './julietsaintclair-pdf/julietsaintclair-pdf.component';
+import { HartaComponent } from './harta/harta.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { JulietsaintclairPdfComponent } from './julietsaintclair-pdf/julietsaint
     PostsComponent,
     PostFormComponent,
     PostListComponent,
-    JulietsaintclairPdfComponent
+    JulietsaintclairPdfComponent,
+    HartaComponent
   ],
   imports: [
     BrowserModule,
