@@ -15,8 +15,8 @@ export class PostService {
 
     generateDummyData(){
         this.data = [
-        new Post('title1', 'ching','testing my POST component',0,"http://www.sepeb.com/macro/image_20170130_143342.jpg"),
-        new Post('title2', 'steven','i like miku. OMG ITS MIKUU. She is my favorite idol. my Waifu', 0,"http://lh3.ggpht.com/_Ok_mraG_tnE/TEBrswKXlvI/AAAAAAAAHZI/jtI7IO7D_Hs/macro%20fotos%203-w550.jpg")];
+        new Post('ching','testing my POST component',0,"http://www.sepeb.com/macro/image_20170130_143342.jpg"),
+        new Post('steven','i like miku. OMG ITS MIKUU. She is my favorite idol. my Waifu', 0,"http://lh3.ggpht.com/_Ok_mraG_tnE/TEBrswKXlvI/AAAAAAAAHZI/jtI7IO7D_Hs/macro%20fotos%203-w550.jpg")];
         console.log("@@@ Generated dummy data @@@");
 
         this.emitData();
